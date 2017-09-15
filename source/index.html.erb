@@ -1,15 +1,15 @@
----
-title: Le Wagon - Middleman
----
-
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
+ <!--  <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%#= image_path 'team.jpg'%>');"> -->
+  <div class="team-picture-wrapper">
+    <%= image_tag 'team.jpg', class: 'banner' %>
+  </div>
+  <div class="container">
+    <h2>
+      Praxis Dr. Wehrheim
+    </h2>
     <p class="about">
-      <%= link_to "More about this template", "about.html" %>
+      <%= link_to "More about Us", "about.html" %>
     </p>
+
   </div>
 </div>
