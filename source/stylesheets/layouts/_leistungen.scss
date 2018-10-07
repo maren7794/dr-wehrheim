@@ -1,0 +1,67 @@
+.leistungen-ueberschrift {
+  padding: 10px 50px;
+}
+.beschreibung {
+  font-size: 15px;
+  padding: 20px 0 0 0;
+}
+.leistung-page{
+  padding: 0 50px;
+}
+.card-wrapper{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+.card-leistungen{
+  width: 30%;
+  border: 1px solid  $gold;
+  border-radius: 2px;
+}
+.card-leistungen:hover{
+  border: 1px solid $praxis-rot;
+}
+.image-wrapper-cards{
+  text-align: center;
+}
+.card-img{
+  max-height: 300px;
+  // width: 80%;
+}
+.leistung-name{
+  text-align: center;
+  padding: 10px 0;
+}
+.grow-little {
+  transition: all .2s ease-in-out;
+}
+.grow-little:hover {
+ transform: scale(1.025);
+}
+
+.card-lang{
+  margin-top: 15px;
+  width: 100%;
+  border: 1px solid  $gold;
+  border-radius: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.leistungen-einzel{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.leistung-beschreibung-name{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.leistung-beschreibung{
+  border-top: 0.5px solid rgb(230,230,230);
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.initiallyHidden {
+  display: none;
+}

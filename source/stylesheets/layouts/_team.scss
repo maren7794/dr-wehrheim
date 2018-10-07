@@ -1,0 +1,32 @@
+.team-ueberschrift{
+  padding: 10px 0;
+}
+.team-wrapper{
+  background: $light-gray;
+  color: #CEA531;
+  display: flex;
+  padding: 30px 10%;
+  justify-content: space-between;
+  font-size: 0.9em;
+  flex-wrap: wrap;
+
+
+}
+.team-card{
+  margin: auto;
+  padding-top: 20px;
+  min-width: 200px;
+  width: 30%;
+  text-align: center;
+}
+.team-member-pic{
+  min-width: 200px;
+  width: 80%;
+  height: 300px;
+  // min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8px auto;
+}
+
+

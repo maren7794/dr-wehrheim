@@ -11,15 +11,23 @@
     p {
       margin-top: 1.5em;
     }
-    a {
-      color: rgba(0,0,0,0.4);
-      font-weight: bold;
-      font-size: 16px;
+    a{
+      text-decoration:none;
     }
-    .banner-pic {
-      background-size: cover;
-    }
+    // .banner-pic {
+    //   background-size: cover;
+    // }
   }
+.team-pic{
+  min-width: 100%;
+  //max-heigth: 40vh;
+  height: auto;
+
+}
+.banner-team {
+  min-width: 100%;
+  max-height: 80vh;
+}
 
 .team-picture-wrapper {
     position:relative;
@@ -44,4 +52,165 @@
     bottom: 0;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
     z-index: 1;
+}
+
+.center{
+  text-align: center;
+}
+.header-prim{
+  padding-top: 10px;
+  font-size: 30px;
+  //padding-bottom: 5px;
+}
+.header-sec{
+  padding-top: 20px;
+  font-size: 25px;
+}
+.eckig{
+  border: 1.7px solid #E9DBC4;
+
+}
+.button-center{
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 8px 10px;
+}
+.container-back-leistungen{
+  min-height: 26vh;
+  background-image: linear-gradient(-225deg, rgba(150, 150, 150, 0.3) 17%,
+    rgba(255, 255, 246, 0.3) 60%),
+  url(https://res.cloudinary.com/dckfp34gk/image/upload/v1538652244/Dr-Wehrheim/zahn.png);
+  //scroll center top transparent;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 10px;
+  opacity: 20%;
+  background-attachment: fixed;
+  background-position: center;
+
+
+}
+.icons{
+  height: 100px;
+}
+.icon-box{
+  vertical-align: center;
+}
+.row-wrapper{
+  padding: 0% 10%;
+}
+.icon-wrapper{
+  max-width: 50%;
+  margin: auto;
+}
+.icon-desc{
+  min-height:66px;
+  padding:4px 0px;
+  display: table;
+  width: 100%;
+}
+.icon-desc-2{
+  display:table-cell;
+  vertical-align: middle;
+}
+.grow {
+  transition: all .2s ease-in-out;
+}
+.grow:hover {
+ transform: scale(1.1);
+}
+// {
+//   font-weight: bold;
+//   text-decoration: none;
+//   color: rgba(0,0,0,0.4);
+// }
+.no-dec-link{
+  color: rgba(0,0,0,0.4);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+.no-dec-link:hover{
+  color: rgb(20,20,20);
+}
+// .text{
+//   padding: 7%;
+//   //text-align:center;
+// }
+// .row{
+//     overflow: hidden;
+// }
+
+// [class*="col-"]{
+//     margin-bottom: -99999px;
+//     padding-bottom: 99999px;
+// }
+.size-six-img{
+  max-height: 450px;
+  // padding: 7%;
+  width: 95%;
+}
+.container-back-digi{
+  min-height: 26vh;
+  background-image: linear-gradient(-225deg, rgba(150, 150, 150, 0.7) 17%,
+    rgba(255, 255, 246, 0.7) 60%),
+  url(https://res.cloudinary.com/dckfp34gk/image/upload/v1538663579/Dr-Wehrheim/zahnarzt.png);
+  //scroll center top transparent;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 5% 10%;
+  opacity: 20%;
+}
+.team{
+  padding: 5px 0 20px 0;
+  margin: 0;
+}
+.row-wrapper-large{
+  padding: 0 5%;
+}
+.infos{
+  background-color: $gold;
+  width: 100%;
+  padding: 1.5% 4%;
+}
+.weiss{
+  color: #ffffff;
+}
+.hell-grau{
+  color: rgb(240,240,240);
+}
+.oeffnungszeiten{
+  padding: 0;
+  margin: 0;
+}
+.oeff1{
+  padding: 0;
+}
+
+.googlelink{
+  display: flex;
+  align-items: center;
+
+}
+.googlemap{
+  padding: 5px 10px;
+  width: 75%;
+  margin: auto;
+}
+.info-boxes{
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.info-header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.adresse{
+  padding-bottom: 7px;
+
 }

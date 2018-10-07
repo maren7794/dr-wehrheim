@@ -10,8 +10,68 @@
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $("div.button-slide-toggle").click(function(){
+              $(this).next().slideToggle();
+          });
+      });
+    </script>
   </head>
   <body>
+    <div class=" navbar-wagon navbar-wagon-right-all hidden-xs hidden-sm">
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo-praxis.png" alt="logo">
+  </a>
+  <div class="rechts">
+    <div class="weiss telefon">
+      07231/313673 &ensp; <i class="fa fa-phone"></i>
+
+    </div>
+
+    <div class="navbar-wagon-right hidden-xs hidden-sm">
+      <a href="" class="navbar-wagon-item navbar-wagon-link">Praxis</a>
+      <a href="./team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+      <a href="./leistungen.html" class="navbar-wagon-item navbar-wagon-link">Leistungen</a>
+      <a href="" class="navbar-wagon-item navbar-wagon-link">Praxislabor</a>
+      <a href="" class="navbar-wagon-item navbar-wagon-link">Anfahrt</a>
+    </div>
+  </div>
+</div>
+
+<!-- Dropdown appearing on mobile only -->
+<div class=" navbar-wagon navbar-wagon-item hidden-md hidden-lg">
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo-praxis.png" alt="logo">
+  </a>
+
+  <div class="weiss telefon">
+    07231/313673 &ensp; <i class="fa fa-phone"></i>
+
+  </div>
+  <div class="dropdown">
+    <i class="fa fa-bars dropdown-toggle weiss" data-toggle="dropdown"></i>
+    <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Praxis</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Leistungen</a></li>
+        <li><a href="#">Praxislabor</a></li>
+        <li><a href="#">Anfahrt</a></li>
+        <i class="fa fa-phone"></i>
+    </ul>
+  </div>
+</div>
     <%= yield %>
+    <div class="footer">
+  <div class="footer-links">
+    <div class="hell-grau">Copyright</div>
+  </div>
+  <div class="footer-copyright hell-grau">
+    Impressum
+  </div>
+</div>
+
   </body>
 </html>
