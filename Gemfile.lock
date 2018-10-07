@@ -61,6 +61,7 @@ GEM
       middleman-core (>= 3.0.0)
     font-awesome-sass (5.3.1)
       sassc (>= 1.11)
+    geocoder (1.5.0)
     haml (5.0.3)
       temple (>= 0.8.0)
       tilt
@@ -185,6 +186,7 @@ DEPENDENCIES
   dotenv-rails
   font-awesome-middleman
   font-awesome-sass (~> 5.3.1)
+  geocoder
   jquery-middleman
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)

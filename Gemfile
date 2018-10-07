@@ -11,6 +11,7 @@ gem 'font-awesome-middleman'
 gem 'font-awesome-sass', '~> 5.3.1'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
+gem "geocoder"
 # Privacy Gem
 gem 'dotenv-rails', groups: [:development, :test]
 
